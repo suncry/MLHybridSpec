@@ -26,6 +26,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yang cai' => 'caiyang@medlinker.com' }
   s.source           = { :git => 'https://github.com/suncry/MLHybrid.git', :tag => s.version.to_s }
+
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -40,3 +41,5 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
+
+pod repo push MLHybridSpecs MLHybrid.podspec --sources='https://github.com/suncry/MLHybridSpec.git'
